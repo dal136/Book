@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    cache: false
+logging:
+  path: /var/logs/
+  file: BookWorm.log
+  level:
+    root: WARN
+    org.springframework.security: DEBUG
